@@ -19,8 +19,7 @@ tasks:
 - action: exists
   environment: azure
   azure:
-   resourceGroup: "TutorialResourceGroupName" #resource group name to be validated
-    resource:
+      resource:
       type: "Microsoft.Compute/virtualMachines" #type of resources validated
       name: support-web-vm01 #name of the resource being validated
   hint: "Run the `az vm create` command as shown to create your virtual machine."
