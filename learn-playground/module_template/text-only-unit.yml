@@ -2,7 +2,7 @@
 uid: learn.module-template.text-only-unit
 title: Text only unit #unit title
 metadata:
-  title: Unit title
+  title: Text only unit
   description: Unit description
   ms.date: 11/27/2018 #replace with the latest publish date
   author: barlanmsft #replace with your GitHub username

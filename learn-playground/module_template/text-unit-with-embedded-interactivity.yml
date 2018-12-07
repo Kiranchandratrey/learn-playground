@@ -12,8 +12,9 @@ metadata:
   ms.prod: learning-azure
   ROBOTS: NOINDEX
 durationInMinutes: 1 
+#reference to the content markdown file for this unit
 content: |
-  [!include[](includes/text-unit-with-embedded-interactivity.md)] #reference to the content markdown file for this unit
+  [!include[](includes/text-unit-with-embedded-interactivity.md)] 
 #if your unit requires task validation to validate the completion of the unit, add the following block
 tasks:
 - action: exists
