@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn.module-template.text-unit-with-knowledge-check
-title: Unit title
+title: Text unit with knowledge check #unit title
 metadata:
   title: Unit title
   description: Unit description
@@ -11,8 +11,9 @@ metadata:
   ms.prod: learning-azure
   ROBOTS: NOINDEX
 durationInMinutes: 1 
+#reference to the content markdown file for this unit
 content: |
-  [!include[](includes/text-unit-with-knowledge-check.md)] #reference to the content markdown file for this unit
+  [!include[](includes/text-unit-with-knowledge-check.md)] 
 quiz:
   title: Check your knowledge
   questions:

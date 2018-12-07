@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn.module-template.text-only-unit
-title: Unit title
+title: Text only unit #unit title
 metadata:
   title: Unit title
   description: Unit description
@@ -11,5 +11,6 @@ metadata:
   ms.prod: learning-azure
   ROBOTS: NOINDEX
 durationInMinutes: 1 
+#reference to the content markdown file for this unit
 content: |
-  [!include[](includes/text-only-unit.md)] #reference to the content markdown file for this unit
+  [!include[](includes/text-only-unit.md)] 

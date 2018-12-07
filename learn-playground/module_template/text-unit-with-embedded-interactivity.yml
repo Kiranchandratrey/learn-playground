@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn.module-template.text-unit-with-embedded-interactivity
-title: Unit title
+title: Text unit with embedded interactivity #unit title
 metadata:
   title: Unit title
   description: Unit description
