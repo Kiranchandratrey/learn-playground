@@ -9,6 +9,11 @@
       "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
+        "Achievements": "Toc",
+        "LearningPath": "Content",
+        "Module": "Content",
+        "ModuleUnit": "Content",
+        "ZonePivotGroups": "Toc",
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
