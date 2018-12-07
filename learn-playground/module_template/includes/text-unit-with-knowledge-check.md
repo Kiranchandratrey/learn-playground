@@ -1,0 +1,1 @@
+If your unit contains learning text and knowledge check, add the learning content in this markdown file. Knowledge check questions are added directly to the YAML file for this unit. Click [here](https://review.docs.microsoft.com/en-us/learn-docs/docs/unit-add-a-knowledge-check?branch=master) to learn how to write effective knowledge checks.
