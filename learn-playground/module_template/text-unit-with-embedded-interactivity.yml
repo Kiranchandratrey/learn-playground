@@ -19,7 +19,7 @@ tasks:
 - action: exists
   environment: azure
   azure:
-  resourceGroup: "TutorialResourceGroupName" #resource group name to be validated
+   resourceGroup: "TutorialResourceGroupName" #resource group name to be validated
     resource:
       type: "Microsoft.Compute/virtualMachines" #type of resources validated
       name: support-web-vm01 #name of the resource being validated
