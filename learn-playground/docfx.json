@@ -3,6 +3,12 @@
     "content": [
       {
         "files": [
+          "achievements.yml"
+        ],
+        "dest": "achievements/main/"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
