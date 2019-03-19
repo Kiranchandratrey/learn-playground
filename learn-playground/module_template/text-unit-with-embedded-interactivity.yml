@@ -1,0 +1,26 @@
+### YamlMime:ModuleUnit
+uid: learn.module-template.text-unit-with-embedded-interactivity
+title: Text unit with embedded interactivity #unit title
+metadata:
+  title: Unit title
+  description: Unit description
+  interactive: powershellEditor #replace with the required type of shell interactivity
+  ms.date: 11/27/2018 #replace with the latest publish date
+  author: barlanmsft #replace with your GitHub username
+  ms.author: barlan #replace with your Microsoft alias
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 1 
+#reference to the content markdown file for this unit
+content: |
+  [!include[](includes/text-unit-with-embedded-interactivity.md)] 
+#if your unit requires task validation to validate the completion of the unit, add the following block
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+     type: "Microsoft.Compute/virtualMachines" #type of resources validated
+     name: support-web-vm01 #name of the resource being validated
+  hint: "Run the `az vm create` command as shown to create your virtual machine."
