@@ -29,4 +29,5 @@ units: #add the uids for your units
 - learn.module-template.text-unit-with-embedded-interactivity
 - learn.module-template.text-unit-with-knowledge-check
 - learn.module-template.knowledge-check-only-unit
-achievement: learn.module-template.badge #add the uid for your achievement badge.
+badge:
+  uid: learn.module-template.badge #add the uid for your achievement badge.
